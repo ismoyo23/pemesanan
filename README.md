@@ -4,3 +4,6 @@ cara install project
 3. lalu ketik - php artisan migrate
               -php artisan db:seed
 4. ketika php artisan serve
+
+
+pastikan laptop terkoneksi dengan internet !!!
