@@ -5,5 +5,6 @@ cara install project
               -php artisan db:seed
 4. ketika php artisan serve
 
+username dan password admin & admin
 
 pastikan laptop terkoneksi dengan internet !!!
