@@ -28,6 +28,7 @@
                             <th>Nama Bunda</th>
                             <th>Nama Ananda</th>
                             <th>No HP</th>
+                            <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -49,6 +50,9 @@
                             <td>{{ $trx->nama_bunda }}</td>
                             <td>{{ $trx->nama_ananda }}</td>
                             <td>{{ $trx->no_hp }}</td>
+                            <td>
+                                <a href="/invoice/<?= $trx->id; ?>" target="_blank" class="btn btn-primary">Cetak</a>
+                            </td>
                         </tr>
                         @endforeach
                     </tbody>

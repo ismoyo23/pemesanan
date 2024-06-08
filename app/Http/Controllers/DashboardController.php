@@ -21,7 +21,7 @@ class DashboardController extends Controller
     public function store(Request $request)
     {
         
-        echo $request;
+    
         if ($request->id_pelanggan === "null") {
     
         Pendaftaran::create([

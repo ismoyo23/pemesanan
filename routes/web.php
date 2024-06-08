@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\TransactionController;
+use App\Http\Controllers\KeuanganController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,4 +29,10 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/transaksi/create', [TransactionController::class, 'create'])->name('transaksi.create');
     Route::post('/transaksi/store', [TransactionController::class, 'store'])->name('transaksi.store');
     Route::get('/pencarian_pelanggan', [TransactionController::class, 'cariPelanggan'])->name('pencarian_pelanggan');
+
+
+    Route::get('/keuangan/create', [KeuanganController::class, 'create'])->name('keuangan.create');
+    Route::post('/keuangan/store', [KeuanganController::class, 'store'])->name('keuangan.store');
+    Route::get('/keuangan', [KeuanganController::class, 'index'])->name('keuangan.index');
+    Route::get('/invoice/{id}', [KeuanganController::class, 'show'])->name('invoice.show');
 });
