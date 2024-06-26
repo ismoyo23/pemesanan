@@ -8,7 +8,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-6">
-            <div class="card mt-5">
+            <div style="background-color: #FFE0A0" class="card mt-5">
                 <div class="card-header">Login</div>
 
                 <div class="card-body">
