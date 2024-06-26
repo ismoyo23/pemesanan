@@ -6,7 +6,7 @@
 @section('content')
 
 <div class="container">
-        <div class="card mt-5">
+        <div style="background-color: #FFE0A0;" class="card mt-5">
             <div class="card-header">
                 <h1>Form Pendaftaran</h1>
             </div>
@@ -20,7 +20,7 @@
                 </form>
             </div>
         </div>
-        <div class="card mt-3" id="customerDetails" >
+        <div style="background-color: #FFE0A0;" class="card mt-3" id="customerDetails" >
             <div class="card-header">
                 <h1>Data Pelanggan</h1>
             </div>

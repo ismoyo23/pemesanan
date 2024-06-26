@@ -4,10 +4,9 @@
 
 @section('body')
 
-<div class="container mt-5">
+<div class="card mb-4" style="background-color: #FFE0A0; color: black; margin-left: 12px; margin-right: 12px; margin-top: 30px">
     <h2>Data Transaksi <a href="{{ route('transaksi.create') }}" class="btn btn-primary">Tambah Transaksi</a></h2>
-    <div class="card">
-        <div class="card-body">
+ 
             <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
@@ -57,8 +56,7 @@
                         @endforeach
                     </tbody>
                 </table>
-            </div>
-        </div>
+            
     </div>
 </div>
 

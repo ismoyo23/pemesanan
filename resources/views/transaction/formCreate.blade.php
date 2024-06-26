@@ -6,7 +6,7 @@
 @section('content')
 
 <div class="container mt-5">
-    <div class="card">
+    <div class="card" style="background-color: #FFE0A0;">
         <div class="card-header">
             Form Transaksi
         </div>
